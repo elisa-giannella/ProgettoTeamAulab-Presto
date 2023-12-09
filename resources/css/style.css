@@ -1,0 +1,536 @@
+/* general selectors */
+body{
+    background-color:#FFF9E8;
+}
+
+h1,h2,h3{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.font-One{
+    font-family: 'Kanit', sans-serif;
+    font-size: 60px !important;
+}
+
+.font-Two{
+    font-family: 'Montserrat', sans-serif;
+    /* font-weight: 900; */
+}
+
+.fs-lg{
+    font-weight: 900;
+}
+
+.spacing{
+    height: 80px;
+}
+
+/* colors */
+
+.bg-y{
+    background-color: #E59500;
+}
+.bg-w{
+    background-color: white;
+}
+.bg-r{
+    background-color:#791632;
+}
+
+.bg-b{
+    background-color:#002642;
+}
+
+.bg-d{
+    background-color:#02040F;
+}
+
+.bg-p{
+    background-color: #FFF9E8;
+}
+
+.bg-yo{
+    background-color: #e5950021;
+}
+
+.bg-c{
+    background-color:#FFF9E8;
+}
+
+.t-y{
+    color: #E59500;
+}
+.t-w{
+    color:#E5DADA;
+}
+.t-r{
+    color:#791632;
+}
+.t-b{
+    color:#02040F;
+}
+.t-c{
+    color:#002642;
+}
+.t-g{
+    color:#E5DADA;
+}
+
+/* navbar class  */
+
+.logo-custom{
+    margin: 10px;
+    margin-top: 15px;
+    height: 40px;
+    width: 200px;
+}
+
+.navbar{
+    background-color: white !important;
+}
+
+.user-animation{
+    color: #E59500;
+    transition: 0.5s;
+
+}
+.user-animation:hover{
+    font-size: 50px !important;
+    color: #791632;
+    transition: 0.5;
+}
+.btn-crea:hover{
+    border: 2px solid #791632 ;
+    border-radius: 15px;
+    color: #791632;
+    transition: 0.3s;
+
+}
+.btn-lavora:hover{
+    background-color: #791632;
+    color: white;
+    transition: 0.3s;
+}
+.btn-registrati:hover{
+    background-color: #791632;
+    color: white;
+    border: 2px solid transparent;
+    transition: 0.3s;
+    border-radius: 15px;
+
+}
+.lavora{
+    /* margin-right: 50px; */
+    border: 0;
+    padding: 7px 12px;
+    border-radius: 15px;
+    color: #791632;
+    font-weight: 600;
+    background-color: #E5DADA;
+
+}
+.bi1{
+    color: #791632;
+}
+.form-controlSearch{
+    /* margin-left: 200px; */
+    border-radius: 0px;
+    border-bottom: 2px solid #791632 !important;
+    border: 0px;
+    width: 300px;
+}
+.cerca{
+    margin-right: 200px;
+}
+
+.lingua{
+    margin-left: 60px !important;
+    color: #02040F;
+    font-weight: 600;
+}
+.annuncio{
+    color: white;
+    font-weight: 600;
+    background-color: #791632;
+}
+.registrati{
+    margin-left: 10px;
+    border: 2px solid #02040F;
+    padding: 7px 12px;
+    border-radius: 15px;
+    color: #02040F;
+    font-weight: 600;
+    background-color: white;
+}
+.crea{
+    margin-right: 10px;
+    border-radius: 15px;
+    border: 2px solid transparent ;
+
+}
+.user{
+    color: #E59500;
+}
+
+/* header class */
+
+
+.category1, .category5, .category9{
+    /* background-color: white !important;
+    border: 2px solid  #E59500 !important;
+    transition: 0.3s;
+    color:#E59500;
+    height: 150px;
+    width: 250px; */
+    background-color: white !important;
+    transition: 0.3s;
+    color:#E59500;
+    height: 150px;
+    width: 250px;
+
+}
+.category1:hover, .category5:hover, .category9:hover{
+    /* background-color:#E59500 !important;
+    border: 2px solid  transparent !important;
+    transition: 0.3s;
+    color: white;
+    height: 150px;
+    width: 300px; */
+    background-color:#E59500 !important;
+    border: 2px solid  transparent !important;
+    transition: 0.3s;
+    color: white;
+    height: 150px;
+    width: 300px;
+}
+.category2, .category6{
+    /* background-color: white !important;
+    border: 2px solid  !important;
+    transition: 0.3s;
+    color:#002642;
+    height: 150px;
+    width: 250px; */
+    background-color: white !important;
+    transition: 0.3s;
+    color:#002642;
+    height: 150px;
+    width: 250px;
+}
+.category2:hover, .category6:hover{
+    /* background-color: #002642!important;
+    border: 2px solid  transparent !important;
+    transition: 0.3s;
+    color: white;
+    height: 150px;
+    width: 300px; */
+    background-color: #002642!important;
+    border: 2px solid  transparent !important;
+    transition: 0.3s;
+    color: white;
+    height: 150px;
+    width: 300px;
+}
+.category3, .category7{
+    /* background-color: white !important;
+    border: 2px solid  !important;
+    transition: 0.3s;
+    color:#791632;
+    height: 150px;
+    width: 250px; */
+    background-color: white !important;
+    transition: 0.3s;
+    color:#791632;
+    height: 150px;
+    width: 250px;
+}
+.category3:hover, .category7:hover{
+    /* background-color: #791632!important;
+    border: 2px solid  transparent !important;
+    transition: 0.3s;
+    color: white;
+    height: 150px;
+    width: 300px; */
+    background-color: #791632!important;
+    border: 2px solid  transparent !important;
+    transition: 0.3s;
+    color: white;
+    height: 150px;
+    width: 300px;
+}
+.category4, .category8{
+    /* background-color: white !important;
+    border: 2px solid  !important;
+    transition: 0.3s;
+    color:#02040F;
+    height: 150px;
+    width: 250px; */
+    background-color: white !important;
+    transition: 0.3s;
+    color:#02040F;
+    height: 150px;
+    width: 250px;
+
+}
+.category4:hover, .category8:hover{
+    /* background-color: #02040F!important;
+    border: 2px solid  transparent !important;
+    transition: 0.3s;
+    color: white;
+    height: 150px;
+    width: 300px; */
+    background-color: #02040F!important;
+    border: 2px solid  transparent !important;
+    transition: 0.3s;
+    color: white;
+    height: 150px;
+    width: 300px;
+}
+
+/* icone categorie */
+.fa-Motori:before {
+    content: "\f1b9";
+}
+
+.fa-Informatica:before{
+    content: "\e4e5";
+}
+
+.fa-Elettrodomestici:before{
+    content: "\f6b6";
+}
+
+.fa-Libri:before{
+    content: "\e0bb";
+}
+
+.fa-Giochi:before{
+    content: "\f11b";
+}
+
+.fa-Sport:before{
+    content: "\f7c9";
+}
+
+.fa-Immobili:before{
+    content: "\e3af";
+}
+
+.fa-Telefoni:before{
+    content: "\f3cd";
+}
+
+.fa-Arredamento:before{
+    content: "\f4b8";
+}
+
+
+
+.card1{
+    transition: 0.5s;
+
+}
+
+.card1:hover{
+    transform: scale(105%) !important;
+    transition: 0.5s;
+}
+
+.header-gradient{
+    position: absolute;
+    top: 350px;
+    /* background: linear-gradient(180deg, rgba(0,8,20,0) 0%, rgba(255,249,232,1) 68%, rgba(255,249,232,1) 100%); */
+    height: 400px;
+
+}
+
+
+.home-background{
+    background: url(/public/media/Home_definitiva.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-size: cover;
+    width: 100vw;
+    height: 100vh; */
+}
+
+
+
+/* .header-cut{
+    height: 480px;
+    z-index: 100;
+    position: absolute;
+    top: 650px;
+} */
+
+/* .information-custom{
+    width: 600px;
+    position: absolute;
+    left: 500px;
+    top: 1150px ;
+
+} */
+
+
+.footer{
+    margin-top: 50px;
+    height: 700px;
+    background-color: #002642;
+}
+
+
+.Presto-custom{
+    color:#002642;
+    transition: 0.4s;
+    /* transform: scale(1.1); */
+
+}
+
+.Presto-custom:hover{
+    color:#E59500;
+    transition: 0.4s;
+    transform: scale(1.1);
+}
+
+.illustration-custom{
+    height: 250px;
+    transition: 0.6s;
+}
+
+
+.illustration-custom:hover{
+    height: 270px;
+    box-shadow: #791632;
+    transition: 0.6s;
+}
+
+
+.pay{
+    /* width: 118px;
+    background-color: white;
+    border-radius: 15px;
+    color: #791632;
+    transition: 0.6s; */
+    width: 118px;
+    border: 2px solid #791632 ;
+    background-color: white;
+    border-radius: 15px;
+    color: #791632;
+    transition: 0.6s;
+}
+
+.pay:hover{
+    width: 125px;
+    background-color: #791632;
+    border-radius: 15px;
+    color: white;
+    transition: 0.6s;
+}
+
+.travel{
+    /* width: 118px;
+    background-color: white;
+    border-radius: 15px;
+    color: #791632;
+    transition: 0.6s; */
+    width: 118px;
+    border: 2px solid #791632 ;
+    background-color: white;
+    border-radius: 15px;
+    color: #791632;
+    transition: 0.6s;
+}
+
+.travel:hover{
+    width: 125px;
+    background-color: #791632;
+    border-radius: 15px;
+    color: white;
+    transition: 0.6s;
+}
+
+
+.search-btn{
+    width: 40px;
+    border: 0px;
+    background: transparent;
+}
+
+.card-position{
+    position: absolute;
+    left:0px;
+    top: 2100px;
+}
+
+.annunci{
+    transition: 0.5s;
+    /* margin-bottom: 100px; */
+}
+
+
+.annunci:hover{
+    color: #791632;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+/* CLASSE IMG PREVIEW */
+.img-preview {
+    width: 200px;
+    height: 200px;
+}
+
+
+.carousel-custom{
+    position: absolute;
+    top: 200px;
+    /* left: 50px; */
+}
+
+.section-custom{
+    background: url(/public/media/SECTION3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* min-height: 1400px; */
+}
+
+/* navbar mobile */
+
+.mobnavbar{
+    height: 80px;
+}
+
+/* form registrati */
+/* .altezza{
+    margin-top: 130px;
+} */
+.margin-bot{
+    margin-bottom: 130px;
+
+}
+.div-register-custom{
+    height: 942px;
+}
+
+.form-controlRegister{
+    width: 280px;
+    border: 0.5px solid #E59500 ;
+    border-radius: 15px;
+}
+
+.form-background{
+    background: url(/public/media/grafica\ form\ accedi.png);
+    background-size:contain;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.revisor-custrom{
+    background: url(/public/media/grafica\ 2\ per\ boh.png);
+    background-size: cover;
+    /* background-size: 100%; */
+    background-repeat: no-repeat;
+}
+
+.p-custom{
+    padding-bottom: 400px !important;
+}
