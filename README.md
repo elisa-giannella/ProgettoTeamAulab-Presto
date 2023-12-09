@@ -6,3 +6,12 @@ Loris Infante
 Luca Romano
 Mario DiBartolomeo
 Vincenzo Manco
+</br>
+Team Project for Aulab Hackademy.
+22/11/2023 - 07/12/2023
+Team members:
+Elisa Giannella
+Loris Infante
+Luca Romano
+Mario DiBartolomeo
+Vincenzo Manco
